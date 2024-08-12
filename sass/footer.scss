@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgb(17 24 39);
+    color: rgb(179, 178, 178);
+    &_top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px white solid;
+    }
+    &_bottom{
+        display: flex;
+        align-items: center;
+        padding: 2vh;
+    }
+
+    &_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3vh 1vw;
+        width: 30vw;
+    }
+    &_part{
+        display: flex;
+        // align-items: center;
+        width: 33.3%;
+        p{
+            padding: 0 1vw;
+        }
+    }
+    &_title{
+        color: white;
+        font-size: 25px;
+    }
+    li{
+        list-style: none;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+p,ul,li,a{
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@import "variables.scss";
+//Pages
+@import "lesson_page.scss";
+@import "cours_details.scss";
+
+// Section
+@import "header.scss";
+@import "navbar.scss";
+@import "head.scss";
+@import "footer.scss";
+@import "presentation.scss";
+@import "chapter.scss";
+@import "card.scss";
+@import "banner.scss";
+@import "competences.scss";
+@import "popular.scss";
+
+
+.head_position{
+    padding: 3vh 0;
+    color: rgb(25, 25, 165);
+}

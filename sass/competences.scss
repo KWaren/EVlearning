@@ -1,0 +1,44 @@
+.competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    padding-top: 8vh;
+    width: 70vw;
+    color: white;
+    &_title{
+        font-size: 4.5rem;
+        font-weight: bold;
+        padding-bottom: 3vh;
+    }
+    &_description{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 6vh;
+
+    }
+    &_box{
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+}
+.section_competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    // background: rgb(53 77 196);
+    // background-color: rgb(15, 1, 43);
+    background-image: url("../assets/imgs/background.jpg");
+    // background-image: url('votre-image.jpg');
+            background-size: cover; /* L'image couvre tout l'écran */
+            background-repeat: no-repeat; /* L'image ne se répète pas */
+            background-position: center center; /* L'image est centrée */
+            background-attachment: fixed;
+    color: white;
+}

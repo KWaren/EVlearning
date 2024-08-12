@@ -1,0 +1,59 @@
+.presentation{
+    background-color: #eefded;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_title{
+        padding: 5vh 0 2vh;
+        font-size: 40px;
+        width: 80vw;
+    }
+    &_card{
+        display: flex;
+        background-color: white;
+        border-radius: 40px;
+        margin: 4vh 0;
+        img{
+            overflow: hidden;
+            border-radius: 40px 0 0 40px;
+            max-height: 80vh;
+            width: 40vw;
+        }
+        .presentation_card_right{
+            border-radius: 0 40px  40px 0;
+            
+        }
+    }
+    &_section{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 4vw;
+        padding-right: 2vw;
+        justify-content: center;
+        &_title{
+            font-size: 32px;
+            color: #06336e;
+            margin-bottom: 8vh;
+        }
+        &_btn{
+            margin-top: 5vh;
+            max-width: 250px;
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eea42e ;
+            border-radius: 30px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: #eea42e;
+                background-color: rgb(246, 248, 248);
+                // border: 1px solid #eea42e;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+    }
+}
