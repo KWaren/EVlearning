@@ -94,7 +94,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 .navbar_ul li a:hover {
-  color: rgb(4, 31, 121);
+  color: #eea42e;
 }
 
 .head img {
@@ -195,8 +195,9 @@ a {
 }
 .presentation_card img {
   overflow: hidden;
+  object-fit: contain;
   border-radius: 40px 0 0 40px;
-  max-height: 80vh;
+  height: 80vh;
   width: 40vw;
 }
 .presentation_card .presentation_card_right {
@@ -233,20 +234,81 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card {
-  width: 38vw;
-  margin: 4vh 2vw;
+.chapter {
+  background-color: rgb(238, 242, 248);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 90px;
+}
+.chapter_title {
+  color: rgb(224, 202, 0);
+  margin: 3vh;
+  font-size: 40px;
+  font-weight: bold;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+.chapter_content {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 38vw;
+  margin: 2vh 1vw;
+  display: flex;
+  flex-direction: column;
+  padding: 8vh 4vw;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
 }
+.card_img {
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 3vh;
+}
+.card_title {
+  display: flex;
+}
+
+.chapter_card {
+  width: 70vw;
+  margin: 2vh 1vw;
+  padding: 10px 2vw;
+  background: linear-gradient(135deg, rgb(132, 191, 247), rgb(24, 109, 236));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+.chapter_card_title {
+  font-size: 32px;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.chapter_card_title:hover {
+  color: rgb(224, 202, 0);
+  font-size: 33px;
+}
+.chapter_card_para {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: #ffffff;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+}
+.chapter_card_para:hover {
+  color: rgb(224, 202, 0);
+  text-decoration: underline;
+}
 
 .banner {
-  background-color: rgb(224, 0, 0);
+  background: url("../assets/imgs/bg3.png") no-repeat center center;
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -293,6 +355,7 @@ a {
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 3vh;
   background-image: url("../assets/imgs/bg1.png");
   background-size: cover; /* L'image couvre tout l'écran */
   background-repeat: no-repeat; /* L'image ne se répète pas */

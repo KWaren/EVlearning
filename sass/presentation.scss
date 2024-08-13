@@ -16,8 +16,9 @@
         margin: 4vh 0;
         img{
             overflow: hidden;
+            object-fit: contain;
             border-radius: 40px 0 0 40px;
-            max-height: 80vh;
+            height: 80vh;
             width: 40vw;
         }
         .presentation_card_right{
