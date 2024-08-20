@@ -362,7 +362,7 @@ a {
   width: 100%;
   min-height: 100vh;
   padding-bottom: 3vh;
-  background-image: url("../assets/imgs/bg8.webp");
+  background-image: url("../assets/imgs/bg6.png");
   background-size: cover; /* L'image couvre tout l'écran */
   background-repeat: no-repeat; /* L'image ne se répète pas */
   background-position: center center; /* L'image est centrée */
