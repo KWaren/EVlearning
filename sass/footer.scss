@@ -22,9 +22,13 @@
     &_part{
         display: flex;
         // align-items: center;
+        justify-content: center;
         width: 33.3%;
         p{
             padding: 0 1vw;
+        }
+        a{
+            padding: 0 0.5vw;
         }
     }
     &_title{

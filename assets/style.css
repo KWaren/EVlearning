@@ -162,10 +162,14 @@ a {
 }
 .footer_part {
   display: flex;
+  justify-content: center;
   width: 33.3%;
 }
 .footer_part p {
   padding: 0 1vw;
+}
+.footer_part a {
+  padding: 0 0.5vw;
 }
 .footer_title {
   color: white;
@@ -195,7 +199,7 @@ a {
 }
 .presentation_card img {
   overflow: hidden;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 40px 0 0 40px;
   height: 80vh;
   width: 40vw;
@@ -235,7 +239,7 @@ a {
 }
 
 .chapter {
-  background-color: rgb(238, 242, 248);
+  background-color: #eefded;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -276,6 +280,7 @@ a {
 }
 .card_title {
   display: flex;
+  margin: 1vh 0;
 }
 
 .chapter_card {
@@ -320,8 +325,9 @@ a {
   margin: 3vh;
 }
 .banner_line {
-  width: 100px;
-  height: 2px;
+  width: 200px;
+  height: 10px;
+  border-radius: 20px;
   background-color: white;
 }
 
@@ -356,7 +362,7 @@ a {
   width: 100%;
   min-height: 100vh;
   padding-bottom: 3vh;
-  background-image: url("../assets/imgs/bg1.png");
+  background-image: url("../assets/imgs/bg8.webp");
   background-size: cover; /* L'image couvre tout l'écran */
   background-repeat: no-repeat; /* L'image ne se répète pas */
   background-position: center center; /* L'image est centrée */
